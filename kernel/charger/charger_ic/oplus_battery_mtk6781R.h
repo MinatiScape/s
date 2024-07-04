@@ -37,7 +37,6 @@ struct charger_manager;
 #include "../drivers/power/supply/mediatek/charger/mtk_pdc_intf.h"
 #include "../drivers/power/supply/mediatek/charger/mtk_charger_init.h"
 #include "../drivers/power/supply/mediatek/charger/mtk_charger_intf.h"
-#endif
 typedef enum {
 	STEP_CHG_STATUS_STEP1 = 0,	/*16C~44C*/
 	STEP_CHG_STATUS_STEP2,
